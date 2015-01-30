@@ -15,6 +15,19 @@
  * with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-void AddSC_kezan()
+#include "ScriptMgr.h"
+#include "ScriptedCreature.h"
+#include "ScriptedEscortAI.h"
+#include "SpellMgr.h"
+#include "Player.h"
+#include "Creature.h"
+
+enum Zone_zone_lost_isles
 {
+
+};
+
+void AddSC_zone_lost_isles()
+{
+    
 }

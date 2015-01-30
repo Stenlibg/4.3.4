@@ -30,6 +30,25 @@ set(scripts_STAT_SRCS
   Kalimdor/CavernsOfTime/EscapeFromDurnholdeKeep/old_hillsbrad.cpp
   Kalimdor/CavernsOfTime/EscapeFromDurnholdeKeep/instance_old_hillsbrad.cpp
   Kalimdor/CavernsOfTime/EscapeFromDurnholdeKeep/boss_captain_skarloc.cpp
+  Kalimdor/CavernsOfTime/EndTime/boss_echo_of_baine.cpp
+  Kalimdor/CavernsOfTime/EndTime/boss_echo_of_jaina.cpp
+  Kalimdor/CavernsOfTime/EndTime/boss_echo_of_sylvanas.cpp
+  Kalimdor/CavernsOfTime/EndTime/boss_echo_of_tyrande.cpp
+  Kalimdor/CavernsOfTime/EndTime/boss_murozond.cpp
+  Kalimdor/CavernsOfTime/EndTime/end_time.h
+  Kalimdor/CavernsOfTime/EndTime/end_time_teleport.cpp
+  Kalimdor/CavernsOfTime/EndTime/instance_end_time.cpp
+  Kalimdor/CavernsOfTime/DragonSoul/instance_dragon_soul.cpp
+  Kalimdor/CavernsOfTime/DragonSoul/dragon_soul.cpp
+  Kalimdor/CavernsOfTime/DragonSoul/dragon_soul.h
+  Kalimdor/CavernsOfTime/DragonSoul/dragon_soul_teleport_and_transport.cpp
+  Kalimdor/CavernsOfTime/DragonSoul/boss_morchok.cpp
+  Kalimdor/CavernsOfTime/DragonSoul/boss_yorsahj_unsleeping.cpp
+  Kalimdor/CavernsOfTime/DragonSoul/boss_warlord_zonozz.cpp
+  Kalimdor/CavernsOfTime/DragonSoul/boss_hagara_the_stormbinder.cpp
+  Kalimdor/CavernsOfTime/DragonSoul/boss_ultraxion.cpp
+  Kalimdor/CavernsOfTime/DragonSoul/boss_warmaster_blackhorn.cpp
+  Kalimdor/CavernsOfTime/DragonSoul/boss_deathwing.cpp
   Kalimdor/CavernsOfTime/BattleForMountHyjal/boss_archimonde.cpp
   Kalimdor/CavernsOfTime/BattleForMountHyjal/hyjalAI.h
   Kalimdor/CavernsOfTime/BattleForMountHyjal/hyjal_trash.h
@@ -50,6 +69,9 @@ set(scripts_STAT_SRCS
   Kalimdor/CavernsOfTime/CullingOfStratholme/culling_of_stratholme.cpp
   Kalimdor/CavernsOfTime/CullingOfStratholme/instance_culling_of_stratholme.cpp
   Kalimdor/CavernsOfTime/CullingOfStratholme/culling_of_stratholme.h
+  Kalimdor/CavernsOfTime/HourOfTwilight/boss_arcurion.cpp
+  Kalimdor/CavernsOfTime/HourOfTwilight/instance_hour_of_twilight.cpp
+  Kalimdor/CavernsOfTime/HourOfTwilight/hour_of_twilight.h
   Kalimdor/CavernsOfTime/TheBlackMorass/the_black_morass.h
   Kalimdor/CavernsOfTime/TheBlackMorass/instance_the_black_morass.cpp
   Kalimdor/CavernsOfTime/TheBlackMorass/boss_chrono_lord_deja.cpp
@@ -74,7 +96,7 @@ set(scripts_STAT_SRCS
   Kalimdor/TempleOfAhnQiraj/boss_fankriss.cpp
   Kalimdor/TempleOfAhnQiraj/boss_huhuran.cpp
   Kalimdor/TempleOfAhnQiraj/instance_temple_of_ahnqiraj.cpp
-  Kalimdor/TempleOfAhnQiraj/mob_anubisath_sentinel.cpp
+  Kalimdor/TempleOfAhnQiraj/npc_anubisath_sentinel.cpp
   Kalimdor/TempleOfAhnQiraj/boss_viscidus.cpp
   Kalimdor/TempleOfAhnQiraj/boss_twinemperors.cpp
   Kalimdor/TempleOfAhnQiraj/boss_sartura.cpp
@@ -106,25 +128,57 @@ set(scripts_STAT_SRCS
   Kalimdor/WailingCaverns/wailing_caverns.cpp
   Kalimdor/zone_durotar.cpp
   Kalimdor/zone_felwood.cpp
+  Kalimdor/boss_azuregos.cpp
   Kalimdor/zone_tanaris.cpp
   Kalimdor/zone_dustwallow_marsh.cpp
   Kalimdor/zone_winterspring.cpp
   Kalimdor/zone_thousand_needles.cpp
   Kalimdor/zone_ashenvale.cpp
   Kalimdor/zone_teldrassil.cpp
+  Kalimdor/zone_echo_isles.cpp
   Kalimdor/OnyxiasLair/boss_onyxia.cpp
   Kalimdor/OnyxiasLair/onyxias_lair.h
   Kalimdor/OnyxiasLair/instance_onyxias_lair.cpp
   Kalimdor/RagefireChasm/instance_ragefire_chasm.cpp
   Kalimdor/DireMaul/instance_dire_maul.cpp
+  Kalimdor/Firelands/boss_shannox.cpp
+  Kalimdor/Firelands/boss_alysrazor.cpp
+  Kalimdor/Firelands/boss_lord_rhyolith.cpp
+  Kalimdor/Firelands/boss_bethtilac.cpp
+  Kalimdor/Firelands/boss_ragnaros_firelands.cpp
+  Kalimdor/Firelands/boss_baloroc.cpp
+  Kalimdor/Firelands/boss_majordomus.cpp
+  Kalimdor/Firelands/firelands.h
+  Kalimdor/Firelands/instance_firelands.cpp
   Kalimdor/HallsOfOrigination/halls_of_origination.h
   Kalimdor/HallsOfOrigination/instance_halls_of_origination.cpp
   Kalimdor/HallsOfOrigination/boss_temple_guardian_anhuur.cpp
   Kalimdor/HallsOfOrigination/boss_earthrager_ptah.cpp
   Kalimdor/HallsOfOrigination/boss_anraphet.cpp
-  Kalimdor/Firelands/instance_firelands.cpp
-  Kalimdor/Firelands/firelands.h
-  Kalimdor/Firelands/boss_alysrazor.cpp
+  Kalimdor/HallsOfOrigination/boss_ammunae.cpp
+  Kalimdor/HallsOfOrigination/boss_isiset.cpp
+  Kalimdor/HallsOfOrigination/boss_rajh.cpp
+  Kalimdor/HallsOfOrigination/boss_setesh.cpp
+  Kalimdor/HallsOfOrigination/elementaires_sdo.cpp
+  Kalimdor/HallsOfOrigination/trash_origine.cpp
+  Kalimdor/ThroneOfTheFourWinds/instance_throne_of_the_four_winds.cpp
+  Kalimdor/ThroneOfTheFourWinds/throne_of_the_four_winds.cpp
+  Kalimdor/ThroneOfTheFourWinds/throne_of_the_four_winds.h
+  Kalimdor/ThroneOfTheFourWinds/boss_alakir.cpp
+  Kalimdor/ThroneOfTheFourWinds/boss_conclave_of_wind.cpp
+  Kalimdor/TheVortexPinnacle/boss_grand_vizier_ertan.cpp
+  Kalimdor/TheVortexPinnacle/boss_altairus.cpp
+  Kalimdor/TheVortexPinnacle/boss_asaad.cpp
+  Kalimdor/TheVortexPinnacle/instance_the_vortex_pinnacle.cpp
+  Kalimdor/TheVortexPinnacle/the_vortex_pinnacle.cpp
+  Kalimdor/TheVortexPinnacle/the_vortex_pinnacle.h
+  Kalimdor/LostCityOfTheTolvir/boss_general_husam.cpp
+  Kalimdor/LostCityOfTheTolvir/boss_lockmaw_augh.cpp
+  Kalimdor/LostCityOfTheTolvir/boss_high_prophet_barim.cpp
+  Kalimdor/LostCityOfTheTolvir/boss_siamat.cpp
+  Kalimdor/LostCityOfTheTolvir/instance_lost_city_of_the_tolvir.cpp
+  Kalimdor/LostCityOfTheTolvir/lost_city_of_the_tolvir.cpp
+  Kalimdor/LostCityOfTheTolvir/lost_city_of_the_tolvir.h
 )
 
 message("  -> Prepared: Kalimdor")

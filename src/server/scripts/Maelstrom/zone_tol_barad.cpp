@@ -15,6 +15,20 @@
  * with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-void AddSC_kezan()
+#include "ScriptMgr.h"
+#include "ScriptedCreature.h"
+#include "ScriptedEscortAI.h"
+#include "SpellMgr.h"
+#include "Player.h"
+#include "Creature.h"
+
+enum Zone_tolbarad
 {
+
+};
+
+void AddSC_zone_tolbarad()
+{
+    
 }
+
