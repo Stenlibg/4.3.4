@@ -16,13 +16,6 @@
  * with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-/* ScriptData
-SDName: npc_anubisath_sentinel
-SD%Complete: 95
-SDComment: Shadow storm is not properly implemented in core it should only target ppl outside of melee range.
-SDCategory: Temple of Ahn'Qiraj
-EndScriptData */
-
 #include "ScriptMgr.h"
 #include "ScriptedCreature.h"
 #include "WorldPacket.h"
