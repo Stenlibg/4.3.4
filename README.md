@@ -2,7 +2,6 @@
 
 
 # DeathCore 4.3.4 - New Source - Scripts
-=====================
 
 ##Informações Gerais do Projeto
 
