@@ -1,10 +1,10 @@
 # ![logo](http://i.imgur.com/Uj5R6Ra.png)
 
 
-## DeathCore 4.3.4 - New Source - Scripts
+# DeathCore 4.3.4 - New Source - Scripts
 =====================
 
-#Informações Gerais do Projeto
+##Informações Gerais do Projeto
 
 Patch 4.3.4 - NDP-DB 4.3.4 (Alpha)
 
@@ -19,8 +19,7 @@ Patch 4.3.4 - NDP-DB 4.3.4 (Alpha)
 
 Esta é a nova source da DeathCore estamos atualizando devagar, adicionando novos scripts e novidades, se você quiser nos ajudar neste projeto toda a ajuda será bem vinda! Atenciosamente, Equipe Noffearr Death ProjecT™.
 
-Links para fazer download:
-
+##Arquivos Necessários
 
 [dbc](https://mega.co.nz/#!ng0FxBJJ!Q62CZedaznny9bJBGZdp8bGr1Wcjf3xuDQguJRyOtdg)
 
@@ -30,11 +29,12 @@ Links para fazer download:
 
 [vmaps](https://mega.co.nz/#!CsllXIza!tzDbOJOFJ7S7HlpVbBftMYqzI-mYaY-2QwKKyqq7f8w)
 
+##Databases
+
 [Todas as Databases - Em Breve](#)
 
 
-
-# ![logo](http://i.imgur.com/Ues1gtC.png)
+## ![logo](http://i.imgur.com/Ues1gtC.png)
 
 
 ## Introdução
