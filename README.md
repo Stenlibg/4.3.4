@@ -33,6 +33,7 @@ Esta é a nova source da DeathCore estamos atualizando devagar, adicionando novo
 
 [Todas as Databases - Em Breve](#)
 
+=====================
 
 ## ![logo](http://i.imgur.com/Ues1gtC.png)
 
