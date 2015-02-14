@@ -3,6 +3,8 @@
 
 # DeathCore 4.3.4 - New Source - Scripts
 
+`DeathCore_4.3.4`:[![Build Status](https://travis-ci.org/NoffearrDeathProjecT/DeathCore_4.3.4.svg?branch=master)](https://travis-ci.org/NoffearrDeathProjecT/DeathCore_4.3.4)
+
 ##Informações Gerais do Projeto
 
 Patch 4.3.4 - NDP-DB 4.3.4 (Alpha)
